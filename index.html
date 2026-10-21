@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JB CNG Tech - Jai Bholenath Garage | Ulhasnagar</title>
+    <meta name="description" content="RTO Approved CNG Kit Fitting Centre in Ulhasnagar. Authorized dealers for Zavoli, BRC, Tomasetto. 0% EMI available.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Animation Utilities */
+        @keyframes fade-in-up {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up {
+            animation: fade-in-up 0.8s ease-out forwards;
+        }
+        
+        @keyframes bounce-slow {
+            0%, 100% { transform: translateY(-5%); }
+            50% { transform: translateY(5%); }
+        }
+        .animate-bounce-slow {
+            animation: bounce-slow 3s infinite;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #16a34a; /* green-600 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #15803d; /* green-700 */
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-gray-50 selection:bg-green-100 selection:text-green-800">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent py-4">
+        <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <div class="bg-green-600 text-white p-2 rounded-lg font-bold text-xl md:text-2xl shadow-md">
+                    JB
+                </div>
+                <div id="nav-text" class="flex flex-col text-white transition-colors duration-300">
+                    <span class="font-bold text-lg leading-tight tracking-tight">JB CNG TECH</span>
+                    <span class="text-xs font-medium opacity-90">Jai Bholenath Garage</span>
+                </div>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="nav-link text-white font-medium hover:text-green-400 transition-colors">Home</a>
+                <a href="#about" class="nav-link text-white font-medium hover:text-green-400 transition-colors">About</a>
+                <a href="#brands" class="nav-link text-white font-medium hover:text-green-400 transition-colors">Brands</a>
+                <a href="#services" class="nav-link text-white font-medium hover:text-green-400 transition-colors">Services</a>
+                <a href="#contact" class="nav-link text-white font-medium hover:text-green-400 transition-colors">Contact</a>
+                
+                <a href="tel:+919322176500" class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full font-medium transition-transform transform hover:scale-105 shadow-lg flex items-center gap-2">
+                    <i data-lucide="phone" class="w-4 h-4"></i> Call Now
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-md text-white bg-slate-900/20 backdrop-blur-sm transition-colors">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t absolute w-full shadow-xl top-full left-0">
+            <div class="flex flex-col p-4 space-y-4">
+                <a href="#home" class="mobile-link text-left font-medium text-slate-700 hover:text-green-600 py-2 border-b border-gray-100">Home</a>
+                <a href="#about" class="mobile-link text-left font-medium text-slate-700 hover:text-green-600 py-2 border-b border-gray-100">About</a>
+                <a href="#brands" class="mobile-link text-left font-medium text-slate-700 hover:text-green-600 py-2 border-b border-gray-100">Brands</a>
+                <a href="#services" class="mobile-link text-left font-medium text-slate-700 hover:text-green-600 py-2 border-b border-gray-100">Services</a>
+                <a href="#contact" class="mobile-link text-left font-medium text-slate-700 hover:text-green-600 py-2 border-b border-gray-100">Contact</a>
+                <a href="tel:+919322176500" class="bg-green-600 text-white py-3 rounded-lg text-center font-bold flex justify-center items-center gap-2">
+                    <i data-lucide="phone" class="w-4 h-4"></i> Call Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <!-- Background -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Car Workshop" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-slate-900/40"></div>
+        </div>
+
+        <div class="container mx-auto px-4 md:px-6 relative z-10 text-white mt-10">
+            <div class="max-w-3xl animate-fade-in-up">
+                <div class="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/40 px-3 py-1 rounded-full text-green-300 text-sm font-semibold mb-6 backdrop-blur-sm">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i> ISO 9001-2015 Certified
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Authorized <span class="text-green-400">CNG Kit</span> <br/>
+                    Fitting Centre
+                </h1>
+                
+                <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
+                    Serving Ulhasnagar, Kalyan, and Thane since 2003. Government approved retro-fitment center for Italian & Indian Sequential CNG/LPG Kits.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://wa.me/919322176500?text=Hi%20JB%20CNG%20Tech,%20I%20am%20interested%20in%20CNG%20fitting." target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-green-500/30">
+                        <i data-lucide="message-circle" class="w-6 h-6"></i> Chat on WhatsApp
+                    </a>
+                    <a href="tel:+919322176500" class="bg-white hover:bg-gray-100 text-slate-900 px-8 py-4 rounded-lg font-bold text-lg transition-all flex items-center justify-center gap-2">
+                        <i data-lucide="phone" class="w-6 h-6"></i> +91 93221 76500
+                    </a>
+                </div>
+
+                <div class="mt-12 flex flex-wrap gap-8 text-sm md:text-base font-medium text-gray-400">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-green-500"></i>
+                        <span>RTO Approved</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-green-500"></i>
+                        <span>1 Year Warranty</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-green-500"></i>
+                        <span>0% Interest EMI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="w-full md:w-1/2">
+                    <div class="relative">
+                        <div class="absolute -top-4 -left-4 w-24 h-24 bg-green-100 rounded-tl-3xl -z-10"></div>
+                        <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-blue-100 rounded-br-3xl -z-10"></div>
+                        <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Car engine maintenance" class="rounded-xl shadow-2xl w-full object-cover h-[400px]">
+                        <div class="absolute bottom-6 left-6 bg-white p-4 rounded-lg shadow-lg max-w-xs border-l-4 border-green-500">
+                            <p class="text-green-600 font-bold text-4xl mb-1">20+</p>
+                            <p class="text-slate-600 font-medium">Years of Experience<br>Since 2003</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h4 class="text-green-600 font-bold uppercase tracking-wider mb-2">About JB CNG Tech</h4>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Just Quality & Performance</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        JB CNG Tech - Jai Bholenath Garage is a well-known workshop for CNG/LPG Kit Fitting in Ulhasnagar. We are the oldest and most trusted Government Approved Retrofitment Center in the region.
+                    </p>
+                    <p class="text-slate-600 mb-8 leading-relaxed">
+                        Our entire assortment is sourced directly from the company, ensuring authenticity. We specialize in fitting the finest imported and Indian conversion kits for all types of private and commercial cars.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="flex items-center gap-3">
+                            <div class="bg-green-100 p-1 rounded-full"><i data-lucide="check" class="w-4 h-4 text-green-600"></i></div>
+                            <span class="font-medium text-slate-800">Govt. Approved Center</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="bg-green-100 p-1 rounded-full"><i data-lucide="check" class="w-4 h-4 text-green-600"></i></div>
+                            <span class="font-medium text-slate-800">Trained ITI Mechanics</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="bg-green-100 p-1 rounded-full"><i data-lucide="check" class="w-4 h-4 text-green-600"></i></div>
+                            <span class="font-medium text-slate-800">Direct Company Sourcing</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="bg-green-100 p-1 rounded-full"><i data-lucide="check" class="w-4 h-4 text-green-600"></i></div>
+                            <span class="font-medium text-slate-800">Spare Parts Distribution</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section id="brands" class="py-16 bg-slate-50 border-y border-slate-200">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Authorized Dealers For Leading Brands</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto mb-12">
+                We install sequential CNG/LPG Conversion Kits from Italy, Argentina, Poland, and India.
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <!-- Brand Cards -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center hover:shadow-md transition-shadow">
+                    <span class="font-bold text-slate-700 text-lg">Zavoli (Italy)</span>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center hover:shadow-md transition-shadow">
+                    <span class="font-bold text-slate-700 text-lg">Tomasetto</span>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center hover:shadow-md transition-shadow">
+                    <span class="font-bold text-slate-700 text-lg">BRC (Italy)</span>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center hover:shadow-md transition-shadow">
+                    <span class="font-bold text-slate-700 text-lg">Mijo</span>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center hover:shadow-md transition-shadow">
+                    <span class="font-bold text-slate-700 text-lg">M-Sequent</span>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center hover:shadow-md transition-shadow">
+                    <span class="font-bold text-slate-700 text-lg">Greco</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Benefits -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why Choose CNG?</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">
+                    Switching to CNG isn't just about saving money; it's about better performance and a cleaner environment.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Eco-Friendly -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6 text-green-600">
+                        <i data-lucide="leaf" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Eco-Friendly</h3>
+                    <p class="text-slate-600">
+                        Commonly referred to as "Green Fuel". Lead and sulphur-free character reduces harmful emissions. Non-corrosive nature increases spark plug longevity.
+                    </p>
+                </div>
+
+                <!-- High Safety -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 text-blue-600">
+                        <i data-lucide="shield-check" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">High Safety</h3>
+                    <p class="text-slate-600">
+                        High auto-ignition temperature (540°C) and narrow flammability range makes accidental combustion very unlikely compared to petrol.
+                    </p>
+                </div>
+
+                <!-- Easy Finance -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6 text-orange-600">
+                        <i data-lucide="credit-card" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Easy Finance</h3>
+                    <p class="text-slate-600">
+                        We offer 0% Down Payment options and easy EMI schemes of 3, 6, 9, or 12 months. Start saving on fuel immediately.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Additional Services Box -->
+            <div class="mt-16 bg-slate-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">
+                <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8">
+                    <div class="flex-1">
+                        <h3 class="text-2xl md:text-3xl font-bold mb-4">Complete CNG Solutions</h3>
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-slate-300">
+                            <li class="flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Lambda Control System</li>
+                            <li class="flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Pressure Gauges</li>
+                            <li class="flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Timing Advancers</li>
+                            <li class="flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Gas Air Mixers</li>
+                            <li class="flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Cylinder Hydro Testing</li>
+                            <li class="flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> RTO Endorsement</li>
+                        </ul>
+                    </div>
+                    <div class="shrink-0">
+                        <a href="https://www.mahanagargas.com/cng/customer-zone/saving-calculator" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-bold transition-colors inline-flex items-center gap-2">
+                           Calculate Your Savings <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="py-16 bg-green-50">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-sm relative">
+                <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-green-600 text-white p-3 rounded-full">
+                    <i data-lucide="star" class="w-6 h-6 fill-current"></i>
+                </div>
+                <p class="text-slate-600 italic text-lg mb-6 pt-6">
+                    "The work is amazing.. No difference in power after installation of M-sequent."
+                </p>
+                <div>
+                    <h4 class="font-bold text-slate-900">Manish Aswani</h4>
+                    <p class="text-slate-500 text-sm">Customer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Info -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Visit Our Center</h2>
+                    <p class="text-slate-600 mb-8">
+                        We are conveniently located near Shahad Station. Contact us for quotes or to schedule your fitting.
+                    </p>
+
+                    <div class="space-y-6">
+                        <!-- Address -->
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-3 rounded-lg text-green-600 shrink-0">
+                                <i data-lucide="map-pin" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Address</h3>
+                                <p class="text-slate-600">Bk.No 29, Shahad Station, Ulhasnagar, Dist Thane - 421001</p>
+                                <a href="https://goo.gl/maps/i2PRCsywfMT2" target="_blank" class="text-green-600 font-medium hover:underline mt-1 inline-block">Get Directions</a>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-3 rounded-lg text-green-600 shrink-0">
+                                <i data-lucide="phone" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Phone</h3>
+                                <p class="text-slate-600">
+                                    <a href="tel:+919322176500" class="hover:text-green-600 block transition-colors">+91 93221 76500</a>
+                                    <a href="tel:+919890313616" class="hover:text-green-600 block transition-colors">+91 98903 13616</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Hours -->
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-3 rounded-lg text-green-600 shrink-0">
+                                <i data-lucide="clock" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Working Hours</h3>
+                                <p class="text-slate-600">Mon - Sun: 10:30 AM to 08:00 PM</p>
+                                <p class="text-red-500 font-medium">Tuesday: Closed</p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-3 rounded-lg text-green-600 shrink-0">
+                                <i data-lucide="mail" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-lg">Email</h3>
+                                <p class="text-slate-600 break-all">Info@jaibholenathgarage.com</p>
+                                <p class="text-slate-600 break-all">jbcngtech@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Socials -->
+                    <div class="mt-8 flex gap-4">
+                        <a href="https://www.facebook.com/jaibholenathong" target="_blank" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors">
+                            <i data-lucide="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://www.instagram.com/jb.cng.tech/" target="_blank" class="bg-pink-600 text-white p-3 rounded-full hover:bg-pink-700 transition-colors">
+                            <i data-lucide="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://wa.me/919322176500" target="_blank" class="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition-colors">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div class="h-[400px] lg:h-full bg-slate-200 rounded-2xl overflow-hidden shadow-lg border border-slate-300">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.123456789!2d73.15!3d19.23!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDEzJzQ4LjAiTiA3M8KwMDknMDAuMCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin&q=Jai+Bholenath+Garage+Ulhasnagar"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Google Maps Location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2">
+                &copy; <span id="year"></span> JB CNG Tech (Jai Bholenath Garage). All Rights Reserved.
+            </p>
+            <div class="flex flex-wrap justify-center gap-2 text-sm opacity-60">
+                <span>Ulhasnagar</span> • 
+                <span>Kalyan</span> • 
+                <span>Ambernath</span> • 
+                <span>Badlapur</span> • 
+                <span>Dombivli</span> • 
+                <span>Thane</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919322176500" target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl z-50 transition-transform hover:scale-110 animate-bounce-slow" aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle" class="w-7 h-7"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Footer Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        const navText = document.getElementById('nav-text');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const menuBtnIcon = menuBtn.firstElementChild; // The SVG inside the button
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                // Scrolled State
+                navbar.classList.remove('bg-transparent', 'py-4');
+                navbar.classList.add('bg-white', 'shadow-lg', 'py-2');
+                
+                // Text Colors
+                navText.classList.remove('text-white');
+                navText.classList.add('text-slate-900');
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('text-white');
+                    link.classList.add('text-slate-600');
+                });
+
+                // Mobile Menu Button Color
+                menuBtn.classList.remove('text-white', 'bg-slate-900/20');
+                menuBtn.classList.add('text-slate-800', 'bg-gray-100');
+
+            } else {
+                // Default State
+                navbar.classList.add('bg-transparent', 'py-4');
+                navbar.classList.remove('bg-white', 'shadow-lg', 'py-2');
+                
+                // Text Colors
+                navText.classList.add('text-white');
+                navText.classList.remove('text-slate-900');
+                
+                navLinks.forEach(link => {
+                    link.classList.add('text-white');
+                    link.classList.remove('text-slate-600');
+                });
+
+                 // Mobile Menu Button Color
+                 menuBtn.classList.add('text-white', 'bg-slate-900/20');
+                 menuBtn.classList.remove('text-slate-800', 'bg-gray-100');
+            }
+        });
+    </script>
+</body>
+</html>
